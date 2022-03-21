@@ -4,8 +4,8 @@
    
    1. Deploy Nodjs in your local machine.         
 
-         - $ git clone https://github.com/hubsync/candidate-test.git
-         - $ cd candidate-test
+         - $ git clone https://github.com/hubsync/candidate-task.git
+         - $ cd candidate-task
          - $ npm init -y
          - $ npm install express --save
          - $ node server.js
