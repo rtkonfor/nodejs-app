@@ -11,7 +11,7 @@
          - $ node server.js
           
    2. Create new branch under your name and make sure to upload and merge all files and changes.
-   3. Create Dockerfile to dockerize the application and test it in your machine.
+   3. Create Dockerfile to dockerize the application and test it in your machine.(listen to port 3000)
    4. create AWS account or use your own existing one.
    5. create ECR and push Docker image you created in step 3.
    6. create ECS cluster(use EC2 mode) to run the application container,create launch configuration and ASG (min. capacity:1, max. capacity:5, desired capacity: 2,  no scalling policy required)
