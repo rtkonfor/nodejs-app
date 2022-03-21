@@ -14,7 +14,7 @@
    3. Create Dockerfile to dockerize the application and test it in your machine.(listen to port 3000)
    4. create AWS account or use your own existing one.
    5. create ECR and push Docker image you created in step 3.
-   6. create ECS cluster(use EC2 mode) to run the application container,create launch configuration and ASG (min. capacity:1, max. capacity:5, desired capacity: 2,  no scalling policy required)
+   6. create ECS cluster(use EC2 mode) to run the application container, create launch configuration and ASG (min. capacity:1, max. capacity:5, desired capacity: 2,  no scalling policy required)
    7. create task definition to run the application Docker containers in Amazon ECS cluster. enable cloudwatch logs.
    8. create ECS service to run two instances of the task definition created in step 7, in addition please add the following
       - application load blancer.
