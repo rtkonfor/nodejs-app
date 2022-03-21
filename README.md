@@ -2,11 +2,10 @@
    the task is to automate the nodejs application deployment in AWS environment using Cloudformation and Codebuild.
    you may use ECS/EC2 Cluster, Codebuild, ECR, Cloudformation, ALB, EC2, Cloudwatch and other services.  
    
-   1. Deploy Nodjs in your local machine.
-         
-         - $ mkdir sample-app         
-         - $ cd sample-app         
-         - $ git clone https://github.com/hubsync/candidate-test-.git
+   1. Deploy Nodjs in your local machine.         
+
+         - $ git clone https://github.com/hubsync/candidate-test.git
+         - $ cd candidate-test
          - $ npm init -y
          - $ npm install express --save
          - $ node server.js
