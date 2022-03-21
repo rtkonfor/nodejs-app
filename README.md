@@ -1,6 +1,6 @@
 #  Deploying a Node.js app on AWS 
    the task is to automate the nodejs application deployment in AWS environment using Cloudformation and Codebuild.
-   you going to use ECS/EC2 Cluster, Codebuild, ECR, Cloudformation, ALB, EC2 and Cloudwatch services.
+   you may use ECS/EC2 Cluster, Codebuild, ECR, Cloudformation, ALB, EC2, Cloudwatch and other services.  
    
    1. Deploy Nodjs in your local machine.
          
